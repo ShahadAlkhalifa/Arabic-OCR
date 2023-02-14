@@ -11,7 +11,7 @@ The implementation of the OCR system for Arabic historical documents using the s
 
 The ACO books are not annotated. So, we changed the dataset to annotated books from KITAB corpus.
  ### Pre-processing for KITAB corpus dataset
- The books chosen from [KITAB corpus](https://kitab-corpus-metadata.azurewebsites.net) have already been pre-processed. Thus, only resizing is required. We resized the word images to have a width of 64 pixels and height of 32 pixels. Resizing images is a critical pre-processing step, due to deep learning models learning faster on small images.
+ The books chosen from [KITAB](https://drive.google.com/drive/folders/1tAP2gsbRKr6pm9vVxaRMvhUHPfX6omTI?usp=share_link) corpus have already been pre-processed. Thus, only resizing is required. We resized the word images to have a width of 64 pixels and height of 32 pixels. Resizing images is a critical pre-processing step, due to deep learning models learning faster on small images.
 ## Step 2: Line and Word Segmentation
  Line segmentation steps include blurring the image and the horizontal projection algorithm. As for the word segmentation, we used findContours function in OpenCV library, which finds the boundary of each word after smoothing the image.
  ### The results of the line segmentation method 
