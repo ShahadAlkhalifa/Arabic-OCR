@@ -5,5 +5,6 @@ The implementation of the OCR system for Arabic historical documents using the s
 
 ## Step 1: Pre-processing
  The books chosen from KITAB corpus have already been pre-processed. Thus, only resizing is required. We resized the word images to have a width of 64 pixels and height of 32 pixels. Resizing images is a critical pre-processing step, due to deep learning models learning faster on small images.
- ## Step 2: Line and Word Segmentation
- 
+## Step 2: Line and Word Segmentation
+ Line segmentation steps include blurring the image and the horizontal projection algorithm. As for the word segmentation, we used findContours function in OpenCV library, which finds the boundary of each word after smoothing the image.
+## Step 3: 
