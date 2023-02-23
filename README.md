@@ -23,4 +23,6 @@ We present the experimental result obtained from exploring pre-processing techni
  ![Picture3](https://user-images.githubusercontent.com/66424485/218853941-3de2c799-ee24-4a7a-88aa-c797106662d5.jpg)  ![Picture4](https://user-images.githubusercontent.com/66424485/218853991-0fe4c599-e280-4638-8644-005b2204faeb.jpg)
 
 The ACO books are not annotated. So, we changed the dataset to annotated books from KITAB corpus.
+
+The pre-processed ACO books can be accessed and used from this [repository](https://github.com/ShahadAlkhalifa/Preprocessed-ACO-Books).
  
